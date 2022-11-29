@@ -4,9 +4,9 @@ import com.fasterxml.jackson.annotation.JsonAnyGetter;
 import com.fasterxml.jackson.annotation.JsonAnySetter;
 import lombok.Getter;
 import lombok.Setter;
+import org.springframework.data.annotation.Id;
 import org.springframework.data.annotation.LastModifiedDate;
 
-import javax.persistence.Id;
 import java.io.Serializable;
 import java.time.Instant;
 import java.util.HashMap;

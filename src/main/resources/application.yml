@@ -9,5 +9,3 @@ spring:
       host: localhost
       port: 27017
       database: hyoukachatdemodb
-  autoconfigure:
-    exclude: org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
